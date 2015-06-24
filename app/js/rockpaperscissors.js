@@ -67,7 +67,7 @@ function getWinner(playerMove,computerMove) {
             winner = "computer";
         }
     }
-    console.log("The Player chose " + playerMove + " while the Computer chose " + computerMove + ".");
+    console.log("Player chose " + playerMove + " while Computer chose " + computerMove + ".");
     return winner;
 }
 
